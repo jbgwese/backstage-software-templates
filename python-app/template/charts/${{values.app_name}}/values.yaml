@@ -19,7 +19,7 @@ ingress:
   enabled: true
   className: "nginx"
   hosts:
-    - host: ${{values.app_name}}-${{values.app_env}p.test.com
+    - host: ${{values.app_name}}-${{values.app_env}}.test.com
       paths:
         - path: /
           pathType: Prefix
